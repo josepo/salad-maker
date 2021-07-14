@@ -1,2 +1,2 @@
 # salad-maker
-Create a salad randomly from multiple ingredients
+Create a salad randomly from multiple ingredients.
