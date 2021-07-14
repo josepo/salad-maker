@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Selector from './Selector';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () =>
+{
+   return (
+      <div className="App">
+         <p>
+            Salad maker will help you to come up with ideas for new salads.<br />
+            You can also randomly assign ingredients.
+         </p>
+
+         <Selector title='Base' />
+         <Selector title='Proteins' />
+         <Selector title='Fats' />
+         <Selector title='Extra' />
+      </div>
+   );
 }
 
 export default App;
