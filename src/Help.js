@@ -5,7 +5,7 @@ const Help = () =>
    return (
       <div className={ css.help }>
          <div>
-            <strong>Salad maker</strong> will help you to come up with ideas for new salads.
+            <strong>Salad maker</strong> will help you come up with ideas for new salads.
          </div>
          <div>
             You can also randomly assign ingredients.

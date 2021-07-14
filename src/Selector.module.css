@@ -1,0 +1,16 @@
+.selector
+{
+   margin: 2em 0;
+   text-align: center;
+}
+
+.selector label
+{
+   display: block;
+   margin-bottom: .5em;
+}
+
+.selector select
+{
+   width: 80%;
+}

@@ -9,10 +9,12 @@ const App = () =>
       <div className={ `${ css.app } container` }>
          <Help />
 
-         <Selector title='Base' />
-         <Selector title='Proteins' />
-         <Selector title='Fats' />
-         <Selector title='Extra' />
+         <div className='row'>
+            <Selector className='col-xs-12 col-lg-3' title='Base' />
+            <Selector className='col-xs-12 col-lg-3' title='Proteins' />
+            <Selector className='col-xs-12 col-lg-3' title='Fats' />
+            <Selector className='col-xs-12 col-lg-3' title='Extra' />
+         </div>
       </div>
    );
 }
