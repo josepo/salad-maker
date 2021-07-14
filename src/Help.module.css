@@ -1,0 +1,11 @@
+.help
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1em;
+   border-radius: 10px;
+   border: solid black 1px;
+   margin: 2em 0;
+}
